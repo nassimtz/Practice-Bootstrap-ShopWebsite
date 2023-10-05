@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoomepage</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css.map">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="far fa-user"></i></a>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                <a href=""><i class="fas fa-home"></i></a>
+                <a href=""><i class="fas fa-search"></i></a>
+                
+            </div>
+            <div class="nav-left">
+                <div class="regester-login-btn">
+                    <i class="fas fa-user"></i>
+                    <a href="#">ثبت نام | ورود</a>
+                </div>
+
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./image/1.jpg" alt="slide">
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./image/2.jpg" alt="slide">
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./image/3.jpg" alt="slide">
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+        </section> 
+    </header>
+    <main>
+        
+        <section class="product-sec-new">
+            <div class="row">
+                <div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/p11.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                
+                            </div>
+                            <div class="title">
+                                مبل اقتصادی
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price"> 15 میلیون تومان </span>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="">افزودن</a>
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/n6.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="title">
+                                موبایل پوکو
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price"> 10 میلیون تومان </span>
+                                </div>                           
+                                <div class="extend-btn">
+                                    <a href="">افزودن</a>
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/ps4.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="title">
+                                ps4
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price"> 17 میلیون تومان </span>
+                                </div>                        
+                                <div class="extend-btn">
+                                    <a href="">افزودن</a>
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/khk.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="title">
+                                ضد آفتاب
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price"> 400 هزارتومان </span>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="">افزودن</a>
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-sec-new">
+            <div class="row">
+                <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <div class="off-title"> قیمت‌های شگفت انگیز  </div>
+                            <img src="./image/ps4.jpg" alt="">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="title">
+                                ps4
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price"> 17 میلیون تومان </span>
+                                </div>                        
+                                <div class="extend-btn">
+                                    <a href="">افزودن</a>
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+
+                        <div class="img-sec">
+                            <div class="off-title"> قیمت‌های شگفت انگیز  </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <img src="./image/n6.jpg" alt="">
+                            <div class="title">
+                                    موبایل پوکو
+                            </div>
+                             <div class="buttons">
+                                <div class="right">
+                                    <span class="price"> 10 میلیون تومان </span>
+                                </div>                           
+                                <div class="extend-btn">
+                                    <a href="">افزودن</a>
+                                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-shop">
+            <div class="row-footer">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        
+            <div class="row-footer">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+        
+            <div class="row-footer">
+                Copyright © 2023
+            </div>
+        </div>
+    </footer>
+   <script src="./js/main.js"></script> 
+</body>
+
+</html>
